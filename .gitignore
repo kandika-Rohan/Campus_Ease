@@ -1,0 +1,7 @@
+# Ignore node_modules in frontend and backend
+node-app/node_modules/
+react-app/node_modules/
+.vs
+.vscode
+react-app/.env
+
