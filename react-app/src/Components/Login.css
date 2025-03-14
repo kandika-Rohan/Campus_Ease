@@ -1,0 +1,112 @@
+/* General Styles */
+.loginclass {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    color: rgb(9, 9, 9);
+}
+
+.background-image {
+    background-image: url("C:/Users/DELL/OneDrive/Desktop/project images/colorful-shopping-bags.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logout-btn {
+    border-radius: 4px;
+}
+/* .signup-btn {
+    background-color:darkblue;
+    padding: 0;
+    margin: 2px;
+} */
+.loginpage {
+    color: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 500px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    flex-direction: column;
+    column-gap: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Input and Label Styles */
+.input-class {
+    height: 40px;
+    width: 100%;
+    max-width: 300px; /* Make input responsive */
+    text-align: left;
+    border: 1px solid rgb(115, 163, 176);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+
+.label-class {
+    font-weight: bold; /* Adjusted font weight */
+    font-size: 1.2rem; /* Adjusted font size */
+    color: black;
+}
+
+/* Button Styles */
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between buttons */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .loginpage {
+        height: auto;
+        width: 90%;
+        max-width: 400px;
+        top: 10%;
+        left: 5%;
+        position: relative;
+        transform: none;
+    }
+    
+    .background-image {
+        background-position: center;
+    }
+    
+    .btn-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-class {
+        width: 100%;
+    }
+
+    .label-class {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .loginpage {
+        width: 90%;
+        top: 20%;
+        left: 5%;
+    }
+    
+    .label-class {
+        font-size: 0.9rem;
+    }
+}

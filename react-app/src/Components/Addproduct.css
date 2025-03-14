@@ -1,0 +1,21 @@
+.addproduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    margin-left: 300px;
+    height: 400px; ;
+    width: 500px;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+
+label{
+    margin: 20px;
+
+}
+.imageupload{
+    height: 100px;
+    width: 200px;
+}

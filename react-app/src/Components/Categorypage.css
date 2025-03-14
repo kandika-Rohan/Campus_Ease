@@ -1,0 +1,59 @@
+/* Categorypage.css */
+.container {
+    padding: 20px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-img-top {
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.icon-con {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #ddd;
+}
+
+.icon-con.liked {
+    color: red;
+}
+
+.icons {
+    font-size: 24px;
+}
+
+/* Bootstrap overrides and custom styles */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.text-danger {
+    color: #dc3545 !important;
+}
+
+.text-success {
+    color: #28a745 !important;
+}

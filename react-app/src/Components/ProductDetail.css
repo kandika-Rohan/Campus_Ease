@@ -1,0 +1,44 @@
+/* ProductDetail.css */
+
+.product-details {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.product-image-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Adjust as needed */
+    border-radius: 8px;
+}
+
+.product-info {
+    flex: 2;
+}
+
+.product-info h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.product-info span {
+    display: block;
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.price {
+    color: blue;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.contact-info h5 {
+    margin: 5px 0;
+}
